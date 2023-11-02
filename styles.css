@@ -5,19 +5,16 @@
 }
 
 #container::before {
-  content: "Before";
+  content: "Before Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  top: -20px;
-  left: 20px;
+ 
+margin:20px
 }
 
 #container::after {
-  content: "After";
+  content: "After Element";
   color: #f00;
   font-size: 20px;
-  position: absolute;
-  bottom: -20px;
-  right: 20px;
+margin:20px;
 }
